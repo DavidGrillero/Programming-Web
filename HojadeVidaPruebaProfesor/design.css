@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(255, 255, 255);
+}
+
+.contenedor {
+  background-color:rgb(212, 168, 190);
+  color: rgb(0, 0, 0);
+  margin: 32px;
+  border-radius: 45px;
+}
+
+.caja1 {
+  display: flex;
+  flex-direction: row;
+  background-color: yellow;
+  margin: 25px;
+  padding: 25px;
+}
+
+.caja2 {
+  display: flex;
+  flex-direction: row;
+  background-color: yellow;
+  margin: 25px;
+  padding: 25px;
+}
+
+.nombre {
+  width: 50%;
+}
+
+.foto {
+  width: 50%;
+}
+
+.foto1 {
+  width: 50%;
+  background-color: orangered;
+  margin: 25px;
+padding: 15px;
+}

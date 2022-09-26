@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <table class="tabla1"">
+
+    <tr>
+      <th>Nombre</th>
+      <th>Apellidos</th>
+      <th>Edad</th>
+      <th>Cédula</th>
+      <th>Apodo</th>
+    </tr>
+
+    <tr>
+      <td>Carlos|</td>
+      <td>Ñoño</td>
+      <td>38</td>
+      <td>1036895898</td>
+      <td class=" alerta">Gordito</td>
+    </tr>
+
+    <tr>
+      <td>Camilo</td>
+      <td>Gómez Carmona</td>
+      <td>39</td>
+      <td>9865878</td>
+      <td class=" alerta">Chipi Gay</td>
+    </tr>
+
+  </table>
+
+  <hr>
+
+  <form action="" class="formulario">
+
+    <h2>Datos Personales</h2>
+    <label for="">Nombres:</label>
+    <input type="text" id="nombres" name="nombres" placeholder="Escriba su nombre">
+    <br>
+    <br>
+    <label for="">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Escriba su contraseña">
+    <br>
+    <br>
+    <label for="correo">Correo:</label>
+    <input type="email" id="correo" name="correo" placeholder="Escriba su email">
+    <section class="radios">
+      <input type="radio" id="sexo" name="sexo" value="masculino"><label for="sexo">Masculino</label>
+      <input type="radio" id="sexo" name="sexo" value="femenino"><label for="sexo">Femenino</label>
+    </section>
+    <section>
+      <h3>Deportes que te gustan</h3>
+      <label for="">Natación</label>
+      <input type="checkbox" id="natacion" name="natacion">
+      <label for="">Fútbol</label>
+      <input type="checkbox" id="futbol" name="futbol">
+      <label for="">Rugby</label>
+      <input type="checkbox" id="rugby" name="rugby">
+      <label for="">Natación</label>
+      <input type="checkbox" id="natacion" name="natacion">
+    </section>
+    <section class="selects">
+      <input class="date" type="date" name="fecha" id="fecha">
+      <input class="date" type="file">
+      <input class="date" type="month">
+      <input class="date" type="range">
+    </section>
+    <br>
+    <br>
+    <div class="btns">
+      <input class="btn alerta" type="submit">
+      <input type="reset" class="btn alerta">
+    </div>
+
+  </form>
+
+</body>
+
+</html>

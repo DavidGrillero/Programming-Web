@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+th {
+  margin: 10px;
+  background-color: gold;
+  color:black;
+  padding: 10px;
+}
+
+td {
+  margin: 5px;
+  padding: 10px;
+  background-color: rgb(197, 156, 93);
+}
+
+.tabla1 {
+  border: 1px;
+  border-style: dashed; /* Raya - espacio - Raya - espacio */
+  border-width: 5px;
+  border-color: darkolivegreen;
+
+}
+
+.alerta {
+  background-color: brown;
+  color:gainsboro;
+}
+
+.alerta:hover {
+  background-color: darksalmon;
+  color: darkblue;
+  cursor: pointer;
+}
+
+.formulario {
+display: flex;
+flex-direction: column;
+  background-color: rgb(248, 247, 247);
+color: black;
+padding: 15px;
+border-radius: 10px;
+border-style: solid; 
+width: 50%;
+}
+
+.btn {
+width: 150px;  
+padding: 5px;
+margin-top: 25px;
+margin-bottom: 25px;
+border-radius: 15px;
+background-color: darkgrey;
+color: black;
+
+}
+
+.btns {
+  display: flex;
+text-align: center;
+justify-content: space-around;
+}
+
+.radios {
+  margin-top: 20px;
+
+}
+
+.date {
+  margin-top: 20px;
+    margin-right: 20px;
+}

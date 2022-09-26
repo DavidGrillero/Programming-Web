@@ -1,0 +1,54 @@
+.contenedor {
+margin: 10%;
+}
+
+.nombre {
+text-align: center;
+}
+
+.contenedorSecundario {
+  display: flexbox;
+}
+
+.navbar {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+background-color: aliceblue;
+text-align: center;
+font-size: large;
+border-radius: 2%;
+}
+
+.btnNavbar {
+width: 90%;
+margin: 2%;
+display: inline-block;
+height: 30px;
+background-color: aliceblue;
+border-color: aliceblue;
+color: black;
+}
+
+footer {
+background-color: darkslategrey;
+width: 100%;
+height: 90px;
+text-align: center;
+color: white;
+}
+
+.contenedorImagenes {
+display: flex;
+text-align: center;
+justify-content: center;
+width: 100%;
+background-color: rgb(115, 152, 207);
+}
+
+.imgFondo {
+width: 80%;
+text-align: center;
+}

@@ -1,0 +1,84 @@
+body{
+	font-family: 'Bebas Neue', cursive;
+font-family: 'Homenaje', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+
+body{margin-left:200px;
+margin-right:200px;
+background-color: #FFE0D5;
+font-family: 'Bebas Neue';}
+
+
+.inline{
+	font-family: 'Bebas Neue';
+	font-size: 30px;
+  
+  
+}
+
+a:link
+{
+text-decoration:none; 
+}
+.titulodos{text-align:center;
+font-size: 55px;
+  font-family: 'Bebas Neue';
+}
+.titulotres{
+  text-align:center;
+  
+}
+#menu{
+  display: flex;
+  
+}
+.uno{
+margin-left:70px;
+  color: #4EB6AD;
+}
+.dos{
+margin-left:70px;
+    color:#9F7FB1;
+}
+.parra{
+  font-size: 22px;
+}
+#experiencia{
+
+  font-size: 30px;
+}
+
+
+#expertise{
+  font-size: 22px;
+}
+.habilidades{
+  font-size: 22px;
+}
+#habilidades{
+  font-size: 30px;
+}
+#education{
+font-size: 22px;
+}
+#educacion{
+font-size: 30px;
+}
+#perfiles-sociales{
+  font-size: 30px;
+}
+#expectativas{
+  font-size: 30px;
+}
+#me{
+
+  font-size: 25px;
+
+}
+.gracias{
+  text-align:center;
+  font-size:50px;
+  color: #4EB6AD;
+}
