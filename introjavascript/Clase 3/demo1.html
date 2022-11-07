@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora simple con TML + CSS + JS</title>
+    <link rel="stylesheet" href="/Clase 3/mycalcu.css" />
+    <script>
+      function sumar(n1, n2) {
+        alert("Aqui toy  " + n1 + " " + n2);
+        let num1 = (num2 = total = 0);
+        num1 = parseFloat(n1);
+        num2 = parseFloat(n2);
+        total = num1 + num2;
+        alert("El resultado es: " + n1 + " + " + n2 + " = " + total);
+        document.getElementById("total").innerHTML = "TOTAL :" + total;
+      }
+      function restar(n1, n2) {
+        alert("Aqui toy  " + n1 + " " + n2);
+        let num1 = (num2 = total = 0);
+        num1 = parseFloat(n1);
+        num2 = parseFloat(n2);
+        total = num1 - num2;
+        alert("El resultado es: " + n1 + " - " + n2 + " = " + total);
+        document.getElementById("total").innerHTML = "TOTAL :" + total;
+      }
+      function multiplicar(n1, n2) {
+        alert("Aqui toy  " + n1 + " " + n2);
+        let num1 = (num2 = total = 0);
+        num1 = parseFloat(n1);
+        num2 = parseFloat(n2);
+        total = num1 * num2;
+        alert("El resultado es: " + n1 + " * " + n2 + " = " + total);
+        document.getElementById("total").innerHTML = "TOTAL :" + total;
+      }
+      function dividir(n1, n2) {
+        alert("Aqui toy  " + n1 + " " + n2);
+        let num1 = (num2 = total = 0);
+        num1 = parseFloat(n1);
+        num2 = parseFloat(n2);
+        total = num1 / num2;
+        alert("El resultado es: " + n1 + " / " + n2 + " = " + total);
+        document.getElementById("total").innerHTML = "TOTAL :" + total;
+      }
+    </script>
+  </head>
+  <body class="contenedor">
+    <h1>Calculadora simple con hTML + CSS + JS</h1>
+    <article>
+      <form action="" class="calcu">
+        <h2>CALCULADORA</h2>
+        <label for="txtNum1">Numero 1:</label>
+        <input type="number" name="txtNum1" size="5" />
+        <label for="txtNum2">Numero 2:</label>
+        <input type="number" name="txtNum2" size="5" />
+        <div class="botones">
+          <input
+            class="btn"
+            type="button"
+            value="Sumar"
+            onclick="sumar(txtNum1.value,txtNum2.value)"
+          />
+          <input
+            class="btn"
+            type="button"
+            value="Restar"
+            onclick="restar(txtNum1.value,txtNum2.value)"
+          />
+          <input
+            class="btn"
+            type="button"
+            value="Multiplicar"
+            onclick="multiplicar(txtNum1.value,txtNum2.value)"
+          />
+          <input
+            class="btn"
+            type="button"
+            value="Dividir"
+            onclick="dividir(txtNum1.value,txtNum2.value)"
+          />
+        </div>
+      </form>
+      <section>
+        <p id="total"></p>
+      </section>
+    </article>
+  </body>
+</html>

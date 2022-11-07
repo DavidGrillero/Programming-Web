@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="images/">
+  <title>Composition</title>
+</head>
+
+<body>
+
+
+
+  <div class="page">
+    <div class="container">
+      <div class="left">
+        <div id="image">
+          <div class="login">Composición Corporal</div>
+          <div class="info">
+            <p>Este formulario servirá para que puedas medir tu índice de masa corporal</p>
+            <table>
+              <tr>
+                <th>Escala de Grasa Corporal</th>
+                <th style="width: 70px;"></th>
+                <th>Porcentaje</th>
+              </tr>
+              <tr>
+                <td>Delgadez Severa</td>
+                <td></td>
+                <td>&lt17%</td>
+              </tr>
+              <tr>
+                <td>Delgadez Moderada</td>
+                <td></td>
+                <td>18-22%</td>
+              </tr>
+              <tr>
+                <td>Nivel Normal</td>
+                <td></td>
+                <td>23-27%</td>
+              </tr>
+              <tr>
+                <td>Pre-Obesidad</td>
+                <td></td>
+                <td>28-33%</td>
+              </tr>
+              <tr>
+                <td>Sobrepeso/Obesidad</td>
+
+                <td></td>
+                <td>>34%</td>
+              </tr>
+            </table>
+            <p>Un nivel de grasa corporal óptimo es de 23-27% en Hombres y mujeres entre 19-24%. Se requiere trabajo
+              para
+              llegar a estos niveles, pero la mayoría puede lograrlo y mantenerlo sin mucha dificultad.
+              Posdata: Deja de comer tantas empanadas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="form">
+          <label for="nombre">Nombres y Apellidos</label>
+          <input type="text" id="nombre">
+          <label for="nombre">Sexo</label>
+          <select name="sexo" id="sexo" onchange="showSelected()">
+            <option value="" selected>Seleccione una opción</option>
+            <option value="0">Masculino</option>
+            <option value="1">Femenino</option>
+          </select>
+          <label>Peso (No ingresar puntos ni comas)</label>
+          <input type="text" id="peso" value="">
+          <label>Altura (No ingresar puntos ni comas)</label>
+          <input type="text" id="altura" value="">
+          <input onclick="submit()" type="submit" id="submit">
+          <br>
+          <h3 id="mensaje"></h3>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+
+
+</html>
